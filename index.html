@@ -26,6 +26,10 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
 
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
     <script defer src="./js/script.js"></script>
 
     <title>GizmoCrate</title>
@@ -42,11 +46,13 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How gizmocrate works</a></li>
-          <li><a class="main-nav-link" href="#">Projects</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+          <li><a class="main-nav-link" href="#how">How gizmocrate works</a></li>
+          <li><a class="main-nav-link" href="#projects">Projects</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
         </ul>
       </nav>
 
@@ -69,8 +75,8 @@
               step-by-step guides. Join thousands of young innovators already
               building with GizmoCrate!
             </p>
-            <a href="#" class="btn btn--full margin-right-sm">Get Started</a>
-            <a href="#" class="btn btn--outline">Learn More &darr;</a>
+            <a href="#cta" class="btn btn--full margin-right-sm">Get Started</a>
+            <a href="#how" class="btn btn--outline">Learn More &darr;</a>
 
             <div class="delivered-kits">
               <div class="delivered-imgs">
@@ -133,7 +139,7 @@
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container">
           <span class="subheading">How GizmoCrate Works</span>
           <h2 class="heading-secondary">
@@ -195,7 +201,7 @@
         </div>
       </section>
 
-      <section class="section-projects">
+      <section class="section-projects" id="projects">
         <div class="container center-text">
           <span class="subheading">Projects</span>
           <h2 class="heading-secondary">
@@ -341,7 +347,7 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">
@@ -467,7 +473,7 @@
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -609,7 +615,7 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -696,7 +702,8 @@
           </ul>
 
           <p class="copyright">
-            Copyright &copy; <span class="year">2030</span> by GizmoCrate, Inc. All rights reserved.
+            Copyright &copy; <span class="year">2030</span> by GizmoCrate, Inc.
+            All rights reserved.
           </p>
         </div>
         <div class="address-col">
